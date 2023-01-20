@@ -1,6 +1,7 @@
 import React from 'react'
 
 import  '../components/Navbar.css';
+import Toggle from '../components/toggle/Toggle';
 const Navbar = () => {
   return (
     <div>
@@ -9,7 +10,9 @@ const Navbar = () => {
             <div className='n-name font-bold text-[1.3rem]'>
                 Salma Anika
             </div>
-            <span>Toggle</span>
+            <span>
+              <Toggle/>
+            </span>
         </div>
         <div className='right flex flex-1 text-center justify-center'>
             <div className='n-list'>
