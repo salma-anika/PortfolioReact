@@ -10,7 +10,7 @@ const footer = () => {
 
       <div className='f-content absolute flex flex-col justify-center items-center w-[100%] mt-16 gap-16 text-white'>
 <span>anikaavaa@gmail.com</span>
-<div className='f-icons flex gap-8'>
+<div className='f-icons flex gap-8 '>
 <Insta/>
 <Git/>
 <Facebook/>
