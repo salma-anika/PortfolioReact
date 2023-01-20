@@ -9,9 +9,9 @@ const footer = () => {
       <img src={Wave} alt="" style={{width:'100%'}}/>
 
       <div className='f-content absolute flex flex-col justify-center items-center w-[100%] mt-16 gap-16 text-white'>
-<span>anikaavaa@gmail.com</span>
-<div className='f-icons flex gap-8 '>
-<Insta/>
+<span className='text-[25px] font-bold'>anikaavaa@gmail.com</span>
+<div className='f-icons flex gap-8 font-bold text-[30px]'>
+<Insta />
 <Git/>
 <Facebook/>
 </div>
