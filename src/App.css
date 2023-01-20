@@ -188,4 +188,16 @@ margin-top: 3rem;
   justify-content: center;
   align-items: center;
 }
+  .c-right .user{
+    height: 2rem;
+    width: 20rem;
+    padding: 0.3em;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid var(--orange);
+  }
+  textarea{
+    height: 4rem !important;
+  }
   
